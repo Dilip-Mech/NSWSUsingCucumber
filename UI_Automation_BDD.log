@@ -1,0 +1,36 @@
+2024-10-18 11:07:42,357 [INFO ] com.dilip.step_definition.Common_Step_def [main] Execution Started
+2024-10-18 11:07:42,372 [INFO ] com.dilip.step_definition.Common_Step_def [main] Instation the COmmon Utils
+2024-10-18 11:07:42,373 [INFO ] com.dilip.step_definition.Common_Step_def [main] Loding the Prop File
+2024-10-18 11:07:42,378 [INFO ] com.dilip.step_definition.Common_Step_def [main] Checking the driver is null or not
+2024-10-18 11:07:42,380 [INFO ] com.dilip.step_definition.Common_Step_def [main] DRIVER is Null. Instanting is it!
+2024-10-18 11:07:42,436 [INFO ] com.dilip.webdriver_manager.DriverManager [main] Launchingchrome
+2024-10-18 11:07:48,116 [INFO ] com.dilip.step_definition.Verify_NSWS_Login_Step_Def [main] The User Landed NSWS Home Page
+2024-10-18 11:07:48,537 [INFO ] com.dilip.step_definition.Verify_NSWS_Login_Step_Def [main] Pop are Closed
+2024-10-18 11:07:48,769 [INFO ] com.dilip.step_definition.Verify_NSWS_Login_Step_Def [main] Mouse Over into Login Feature
+2024-10-18 11:07:49,758 [INFO ] com.dilip.step_definition.Verify_NSWS_Login_Step_Def [main] Bussiness Login is Clicked
+2024-10-18 11:07:51,127 [INFO ] com.dilip.step_definition.Verify_NSWS_Login_Step_Def [main] UserName entered correctly
+2024-10-18 11:07:51,303 [INFO ] com.dilip.step_definition.Verify_NSWS_Login_Step_Def [main] Password Entered Correctly
+2024-10-18 11:07:51,419 [INFO ] com.dilip.step_definition.Verify_NSWS_Login_Step_Def [main] The User Logged in Succesfully
+2024-10-18 11:07:51,436 [INFO ] com.dilip.step_definition.Common_Step_def [main] Execution Started
+2024-10-18 11:07:51,436 [INFO ] com.dilip.step_definition.Common_Step_def [main] Instation the COmmon Utils
+2024-10-18 11:07:51,436 [INFO ] com.dilip.step_definition.Common_Step_def [main] Loding the Prop File
+2024-10-18 11:07:51,437 [INFO ] com.dilip.step_definition.Common_Step_def [main] Checking the driver is null or not
+2024-10-18 11:07:51,440 [INFO ] com.dilip.step_definition.Verify_NSWS_Dashboard_step_def [main] Succesful on second Feature
+2024-10-18 11:07:56,861 [ERROR] com.dilip.step_definition.Verify_NSWS_Dashboard_step_def [main] org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="dashboard-title">...</div> is not clickable at point (1340, 79). Other element would receive the click: <div id="loader-wrapper">...</div>
+  (Session info: chrome=129.0.6668.101)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cc6c60e82d3df3a68e7d4bf93e183720, clickElement {id=f.F1FD284BEB4FDC700D47E062F8EF4225.d.2FD42584B316366960EABBDE2F5AA2AD.e.224}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.101, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\SRINIV~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55684}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55684/devtoo..., se:cdpVersion: 129.0.6668.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (cc6c60e82d3df3a68e7d4bf93e183720)] -> xpath: //div[@class='dashboard-title']]
+Session ID: cc6c60e82d3df3a68e7d4bf93e183720
+2024-10-18 11:08:17,135 [ERROR] com.dilip.step_definition.Verify_NSWS_Dashboard_step_def [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='PROFILE']"}
+  (Session info: chrome=129.0.6668.101)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cc6c60e82d3df3a68e7d4bf93e183720, findElement {using=xpath, value=//a[text()='PROFILE']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.101, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\SRINIV~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55684}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55684/devtoo..., se:cdpVersion: 129.0.6668.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cc6c60e82d3df3a68e7d4bf93e183720
