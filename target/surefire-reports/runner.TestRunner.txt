@@ -1,19 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: runner.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 41.05 s <<< FAILURE! -- in runner.TestRunner
-This feature is to Verify the dashboard.This is to verify the NSWS Dashboard feature -- Time elapsed: 26.31 s <<< FAILURE!
-java.lang.AssertionError: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='PROFILE']"}
-  (Session info: chrome=129.0.6668.101)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.22.0', revision: 'c5f3146703*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [cc6c60e82d3df3a68e7d4bf93e183720, findElement {using=xpath, value=//a[text()='PROFILE']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.101, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\SRINIV~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55684}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55684/devtoo..., se:cdpVersion: 129.0.6668.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: cc6c60e82d3df3a68e7d4bf93e183720
-	at org.junit.Assert.fail(Assert.java:89)
-	at com.dilip.step_definition.Verify_NSWS_Dashboard_step_def.click_profile_feature(Verify_NSWS_Dashboard_step_def.java:65)
-	at ✽.Click Profile Feature(file:///C:/Users/Srinivasan/eclipse-workspace/NSWSUsingCucumber/src/test/resources/features/02_Verify_NSWS_Dashboard.feature:6)
-
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 42.13 s -- in runner.TestRunner
